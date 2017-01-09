@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ContIaTEoRio
+  host: ContIaTEoRio
+  disk_quota: 1024M
+  services:
+  - ContIaTEoRio-cloudantNoSQLDB
+  - ContIaTEoRio-iotf-service
